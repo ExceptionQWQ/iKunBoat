@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="iKunBoat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mac/CLionProjects/iKunBoat/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mac/CLionProjects/iKunBoat/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mac/CLionProjects/iKunBoat/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iKunBoat.elf">
+				<Option output="/Users/mac/CLionProjects/iKunBoat/cmake-build-release/iKunBoat.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/CLionProjects/iKunBoat/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Core/Inc"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 iKunBoat.elf"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iKunBoat.elf/fast">
+				<Option output="/Users/mac/CLionProjects/iKunBoat/cmake-build-release/iKunBoat.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/CLionProjects/iKunBoat/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Core/Inc"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 iKunBoat.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/CLionProjects/iKunBoat/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Inc/main.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Inc/stm32f1xx_it.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/main.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/stm32f1xx_it.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/syscalls.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/sysmem.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Src/system_stm32f1xx.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/CMSIS/LICENSE.txt">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/STM32F103C8TX_FLASH.ld">
+			<Option target="iKunBoat.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/iKunBoat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
